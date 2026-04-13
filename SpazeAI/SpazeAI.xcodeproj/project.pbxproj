@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		540F02022F885F2400624272 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540F02012F885F2400624272 /* ProfileView.swift */; };
+		540F02032F885F2400624272 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540F02002F885F2400624272 /* FeedView.swift */; };
+		540F02042F885F2400624273 /* CategoryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540F02052F885F2400624273 /* CategoryDetailView.swift */; };
+		54A743432F88195400A07404 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A743422F88195400A07404 /* APIService.swift */; };
+		54A743452F881D8B00A07404 /* GenerationTypeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A743442F881D8B00A07404 /* GenerationTypeManager.swift */; };
+		A10001 /* SpazeAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20001 /* SpazeAIApp.swift */; };
+		A10002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20002 /* ContentView.swift */; };
+		A10003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20003 /* Assets.xcassets */; };
+		A10004 /* GeneratedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20004 /* GeneratedImage.swift */; };
+		A10005 /* ImageGenerationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20005 /* ImageGenerationService.swift */; };
+		A10006 /* ImageGeneratorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20006 /* ImageGeneratorViewModel.swift */; };
+		A10007 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20007 /* SettingsView.swift */; };
+		A10008 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20009 /* Theme.swift */; };
+		A10010 /* GenerationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20010 /* GenerationType.swift */; };
+		A10011 /* CoinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20011 /* CoinManager.swift */; };
+		A10012 /* GalleryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20012 /* GalleryManager.swift */; };
+		A10013 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20013 /* HomeView.swift */; };
+		A10014 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20014 /* GalleryView.swift */; };
+		A10015 /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20015 /* ShopView.swift */; };
+		A10016 /* GenerationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20016 /* GenerationView.swift */; };
+		A10017 /* CoinBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20017 /* CoinBarView.swift */; };
+		A10018 /* AppUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20018 /* AppUser.swift */; };
+		A10019 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20019 /* AuthManager.swift */; };
+		A10020 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20020 /* WelcomeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		540F02002F885F2400624272 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		540F02012F885F2400624272 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		540F02052F885F2400624273 /* CategoryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailView.swift; sourceTree = "<group>"; };
+		54A743422F88195400A07404 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		54A743442F881D8B00A07404 /* GenerationTypeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerationTypeManager.swift; sourceTree = "<group>"; };
+		A20001 /* SpazeAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpazeAIApp.swift; sourceTree = "<group>"; };
+		A20002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A20003 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A20004 /* GeneratedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneratedImage.swift; sourceTree = "<group>"; };
+		A20005 /* ImageGenerationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGenerationService.swift; sourceTree = "<group>"; };
+		A20006 /* ImageGeneratorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGeneratorViewModel.swift; sourceTree = "<group>"; };
+		A20007 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A20008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A20099 /* SpazeAI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpazeAI.entitlements; sourceTree = "<group>"; };
+		A20009 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		A20010 /* GenerationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerationType.swift; sourceTree = "<group>"; };
+		A20011 /* CoinManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinManager.swift; sourceTree = "<group>"; };
+		A20012 /* GalleryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryManager.swift; sourceTree = "<group>"; };
+		A20013 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A20014 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
+		A20015 /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		A20016 /* GenerationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerationView.swift; sourceTree = "<group>"; };
+		A20017 /* CoinBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinBarView.swift; sourceTree = "<group>"; };
+		A20018 /* AppUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUser.swift; sourceTree = "<group>"; };
+		A20019 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		A20020 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		A30001 /* SpazeAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpazeAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A40001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A50001 = {
+			isa = PBXGroup;
+			children = (
+				A50002 /* SpazeAI */,
+				A50006 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A50002 /* SpazeAI */ = {
+			isa = PBXGroup;
+			children = (
+				A20001 /* SpazeAIApp.swift */,
+				A20009 /* Theme.swift */,
+				A20008 /* Info.plist */,
+				A20099 /* SpazeAI.entitlements */,
+				A50003 /* Views */,
+				A50004 /* ViewModels */,
+				A50005 /* Models */,
+				A50007 /* Services */,
+				A50008 /* Managers */,
+				A20003 /* Assets.xcassets */,
+			);
+			path = SpazeAI;
+			sourceTree = "<group>";
+		};
+		A50003 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A20002 /* ContentView.swift */,
+				A20007 /* SettingsView.swift */,
+				A20020 /* WelcomeView.swift */,
+				A50009 /* Tabs */,
+				A50010 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A50004 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A20006 /* ImageGeneratorViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A50005 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A20004 /* GeneratedImage.swift */,
+				A20010 /* GenerationType.swift */,
+				A20018 /* AppUser.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A50006 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A30001 /* SpazeAI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A50007 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				54A743422F88195400A07404 /* APIService.swift */,
+				A20005 /* ImageGenerationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A50008 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				54A743442F881D8B00A07404 /* GenerationTypeManager.swift */,
+				A20011 /* CoinManager.swift */,
+				A20012 /* GalleryManager.swift */,
+				A20019 /* AuthManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		A50009 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				540F02002F885F2400624272 /* FeedView.swift */,
+				540F02012F885F2400624272 /* ProfileView.swift */,
+				540F02052F885F2400624273 /* CategoryDetailView.swift */,
+				A20013 /* HomeView.swift */,
+				A20014 /* GalleryView.swift */,
+				A20015 /* ShopView.swift */,
+				A20016 /* GenerationView.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		A50010 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A20017 /* CoinBarView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A60001 /* SpazeAI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80002 /* Build configuration list for PBXNativeTarget "SpazeAI" */;
+			buildPhases = (
+				A70001 /* Sources */,
+				A40001 /* Frameworks */,
+				A70002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpazeAI;
+			productName = SpazeAI;
+			productReference = A30001 /* SpazeAI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A90001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					A60001 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = A80001 /* Build configuration list for PBXProject "SpazeAI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = tr;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				tr,
+				Base,
+			);
+			mainGroup = A50001;
+			productRefGroup = A50006 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A60001 /* SpazeAI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A70002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10003 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A70001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10001 /* SpazeAIApp.swift in Sources */,
+				54A743432F88195400A07404 /* APIService.swift in Sources */,
+				A10002 /* ContentView.swift in Sources */,
+				A10004 /* GeneratedImage.swift in Sources */,
+				A10005 /* ImageGenerationService.swift in Sources */,
+				A10006 /* ImageGeneratorViewModel.swift in Sources */,
+				A10007 /* SettingsView.swift in Sources */,
+				54A743452F881D8B00A07404 /* GenerationTypeManager.swift in Sources */,
+				540F02022F885F2400624272 /* ProfileView.swift in Sources */,
+				540F02032F885F2400624272 /* FeedView.swift in Sources */,
+				540F02042F885F2400624273 /* CategoryDetailView.swift in Sources */,
+				A10008 /* Theme.swift in Sources */,
+				A10010 /* GenerationType.swift in Sources */,
+				A10011 /* CoinManager.swift in Sources */,
+				A10012 /* GalleryManager.swift in Sources */,
+				A10013 /* HomeView.swift in Sources */,
+				A10014 /* GalleryView.swift in Sources */,
+				A10015 /* ShopView.swift in Sources */,
+				A10016 /* GenerationView.swift in Sources */,
+				A10017 /* CoinBarView.swift in Sources */,
+				A10018 /* AppUser.swift in Sources */,
+				A10019 /* AuthManager.swift in Sources */,
+				A10020 /* WelcomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B10001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B10002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B20001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SpazeAI/SpazeAI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3RTASAD7K4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpazeAI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SpazeAI;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spazeai.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B20002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SpazeAI/SpazeAI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3RTASAD7K4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpazeAI/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SpazeAI;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spazeai.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A80001 /* Build configuration list for PBXProject "SpazeAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B10001 /* Debug */,
+				B10002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A80002 /* Build configuration list for PBXNativeTarget "SpazeAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20001 /* Debug */,
+				B20002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A90001 /* Project object */;
+}

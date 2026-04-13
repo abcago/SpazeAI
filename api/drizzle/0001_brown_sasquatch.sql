@@ -1,0 +1,1 @@
+ALTER TABLE "generation_types" ADD COLUMN "category" varchar(100) DEFAULT 'photo' NOT NULL;

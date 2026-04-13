@@ -1,0 +1,37 @@
+{
+  "name": "spazeai-api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
+    "db:studio": "drizzle-kit studio",
+    "db:seed": "tsx src/db/seed.ts",
+    "db:seed:gen-types": "tsx src/db/seeds/seed-generation-types.ts",
+    "db:seed:plans": "tsx src/db/seeds/seed-subscription-plans.ts",
+    "db:populate-previews": "tsx scripts/populate-previews.ts"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.1027.0",
+    "@aws-sdk/s3-request-presigner": "^3.1027.0",
+    "@hono/node-server": "^1.13.8",
+    "@hono/swagger-ui": "^0.5.0",
+    "@hono/zod-openapi": "^0.18.4",
+    "drizzle-orm": "^0.39.3",
+    "hono": "^4.7.5",
+    "jose": "^6.0.11",
+    "pg": "^8.13.3",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "@types/pg": "^8.11.11",
+    "drizzle-kit": "^0.30.5",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3"
+  }
+}
